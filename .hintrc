@@ -1,0 +1,63 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "backdrop-filter",
+          "border: 1px solid color-mix(in srgb, var(--orange) 20%, transparent)",
+          "border-color: color-mix(in srgb, var(--orange) 45%, transparent)",
+          "border-bottom: 1px solid color-mix(in srgb, var(--orange) 25%, transparent)",
+          "border-top: 1px solid color-mix(in srgb, var(--orange) 25%, transparent)",
+          "border-top: 1px solid color-mix(in srgb, var(--orange) 30%, transparent)",
+          "border-top: 1px solid color-mix(in srgb, var(--orange) 35%, transparent)",
+          "border-color: color-mix(in srgb, var(--orange) 55%, transparent)",
+          "border: 1px solid color-mix(in srgb, var(--orange) 35%, transparent)",
+          "border-bottom: 1px solid color-mix(in srgb, var(--orange) 18%, transparent)",
+          "border: 1px solid color-mix(in srgb, var(--orange) 22%, transparent)",
+          "border-bottom: 3px solid color-mix(in srgb, var(--orange) 18%, transparent)",
+          "border-top: 3px solid color-mix(in srgb, var(--orange) 25%, transparent)",
+          "border-top: 3px solid color-mix(in srgb, var(--orange) 22%, transparent)",
+          "border-bottom: 3px solid color-mix(in srgb, var(--orange) 14%, transparent)"
+        ]
+      }
+    ],
+    "no-inline-styles": "off",
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "iframe[referrerpolicy=no-referrer-when-downgrade]"
+        ]
+      }
+    ],
+    "axe/text-alternatives": [
+      "default",
+      {
+        "frame-title": "off",
+        "image-alt": "off"
+      }
+    ],
+    "axe/structure": [
+      "default",
+      {
+        "listitem": "off"
+      }
+    ],
+    "axe/aria": [
+      "default",
+      {
+        "aria-required-children": "off"
+      }
+    ]
+  }
+}
