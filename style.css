@@ -2310,3 +2310,21 @@ html {
         order: 2;
     }
 }
+
+/* Exemple de mise en page pour la tuile principale de la mosaïque */
+.grid-mosaic {
+    /* Propriétés pour la grille (probablement Grid ou Flexbox) */
+    display: grid;
+    grid-template-areas:
+        "a b"
+        "a c"
+        "d e";
+    gap: 0.5rem; /* Espace entre les tuiles */
+    height: 100%;
+}
+
+.tile-a {
+    grid-area: a; /* La tuile A occupe plus d'espace */
+    object-fit: cover;
+}
+/* Les autres tuiles (b, c, d, e) ont d'autres zones définies. */
